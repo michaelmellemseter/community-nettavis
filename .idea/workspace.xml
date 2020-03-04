@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f328ae0b-b0fa-4c5d-8359-03cd2746adf2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/services.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/services.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/widgets.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/widgets.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/tests/setup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/tests/widgetsTest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/dao/katdao.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/dao/sakkatdao.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/dao/sakdao.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/dao/sakdao.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1673447438">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.48" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="5" />
+          <entry key="html" value="4" />
+          <entry key="js" value="19" />
+          <entry key="json" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="5" />
+          <entry key="HTML" value="4" />
+          <entry key="JSON" value="5" />
+          <entry key="JavaScript" value="19" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="9" />
+          <entry key="html" value="22" />
+          <entry key="js" value="6549" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="9" />
+          <entry key="HTML" value="22" />
+          <entry key="JavaScript" value="6549" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="FlowJSServerService" value="4" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1764225017">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="FlowJSServerService" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="24" />
+          <entry key="html" value="46" />
+          <entry key="js" value="7460" />
+          <entry key="json" value="25" />
+          <entry key="sql" value="363" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="24" />
+          <entry key="HTML" value="46" />
+          <entry key="JSON" value="25" />
+          <entry key="JavaScript" value="7460" />
+          <entry key="PLAIN_TEXT" value="135" />
+          <entry key="SQL" value="228" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="babelrc" value="1" />
+          <entry key="css" value="4" />
+          <entry key="html" value="5" />
+          <entry key="js" value="73" />
+          <entry key="json" value="24" />
+          <entry key="npmrc" value="1" />
+          <entry key="prettierrc" value="1" />
+          <entry key="sql" value="20" />
+          <entry key="yml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="4" />
+          <entry key="HTML" value="5" />
+          <entry key="JSON" value="26" />
+          <entry key="JavaScript" value="73" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="SQL" value="17" />
+          <entry key="YAML" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1299">
+              <caret line="338" column="12" lean-forward="true" selection-start-line="338" selection-start-column="12" selection-end-line="338" selection-end-column="12" />
+              <folding>
+                <element signature="e#453#597#0" />
+                <element signature="n#Menu#0" />
+                <element signature="n#Home#0" />
+                <element signature="n#Nyeste#0" />
+                <element signature="n#Kategori#0" />
+                <element signature="n#RegSide#0" />
+                <element signature="n#LeggTilKat#0" />
+                <element signature="n#Sak#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Standard|Day</find>
+      <find>class</find>
+      <find>className</find>
+      <find>getKategori</find>
+      <find>ensak</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>className</replace>
+      <replace>classname</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/client/public/RegSide.css" />
+        <option value="$PROJECT_DIR$/server/tests/sakDao.Test.js" />
+        <option value="$PROJECT_DIR$/server/tests/katDao.Test.js" />
+        <option value="$PROJECT_DIR$/server/src/dao/katDao.Test.js" />
+        <option value="$PROJECT_DIR$/server/src/dao/katdao.Test.js" />
+        <option value="$PROJECT_DIR$/server/src/dao/create_tables_sak.sql" />
+        <option value="$PROJECT_DIR$/server/src/dao/create_testdata_sak.sql" />
+        <option value="$PROJECT_DIR$/server/package.json" />
+        <option value="$PROJECT_DIR$/server/src/dao/sakDao.Test.js" />
+        <option value="$PROJECT_DIR$/server/src/dao/create_tables_kategori.sql" />
+        <option value="$PROJECT_DIR$/server/src/dao/create_testdata_kategori.sql" />
+        <option value="$PROJECT_DIR$/client/public/custom.css" />
+        <option value="$PROJECT_DIR$/server/src/dao/sakKatdao.test.js" />
+        <option value="$PROJECT_DIR$/server/src/package-lock.json" />
+        <option value="$PROJECT_DIR$/server/package-lock.json" />
+        <option value="$PROJECT_DIR$/package-lock.json" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/client/package.json" />
+        <option value="$PROJECT_DIR$/client/public/index.html" />
+        <option value="$PROJECT_DIR$/server/src/dao/create_testdata.sql" />
+        <option value="$PROJECT_DIR$/server/src/dao/create_tables.sql" />
+        <option value="$PROJECT_DIR$/server/src/dao/katdao.js" />
+        <option value="$PROJECT_DIR$/server/src/dao/runsqlfile.js" />
+        <option value="$PROJECT_DIR$/server/src/dao/dao.js" />
+        <option value="$PROJECT_DIR$/server/src/server.js" />
+        <option value="$PROJECT_DIR$/server/src/dao/katdao.test.js" />
+        <option value="$PROJECT_DIR$/client/src/widgets.js" />
+        <option value="$PROJECT_DIR$/client/src/services.js" />
+        <option value="$PROJECT_DIR$/server/src/dao/sakdao.js" />
+        <option value="$PROJECT_DIR$/client/src/index.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path>$USER_HOME$/AppData/Roaming/npm/node_modules/flow-bin</exe-path>
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/client/node_modules" />
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+    <handled-path value="$PROJECT_DIR$/server/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/client/package.json" />
+      <path value="$PROJECT_DIR$/package.json" />
+      <path value="$PROJECT_DIR$/server/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="420" />
+    <option name="width" value="981" />
+    <option name="height" value="1032" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Community-nettavis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Community-nettavis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Community-nettavis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Community-nettavis" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Community-nettavis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Community-nettavis" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Community-nettavis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Community-nettavis" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Oving5/DatabaseTest" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/server/node_modules/jest" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\micha\AppData\Roaming\npm\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\micha\Documents\NTNU\Systemutvikling2\Community-nettavis\server\src\dao" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Jest.get alle kategorier fra db (3)">
+    <configuration name="get alle kategorier fra db (1)" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$/server" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/server/src/dao/katDao.Test.js" />
+      <test-names>
+        <test-name value="get alle kategorier fra db" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="get alle kategorier fra db (2)" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$/server" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/server/src/dao/katdao.Test.js" />
+      <test-names>
+        <test-name value="get alle kategorier fra db" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="get alle kategorier fra db (3)" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$/server" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/server/src/dao/katdao.test.js" />
+      <test-names>
+        <test-name value="get alle kategorier fra db" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="get alle kategorier fra db" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$/server" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/server/tests/katDao.Test.js" />
+      <test-names>
+        <test-name value="get alle kategorier fra db" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="sakdao.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="sakdao.js" working-dir="$PROJECT_DIR$/server/src/dao">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.sakdao.js" />
+      <item itemvalue="Jest.get alle kategorier fra db" />
+      <item itemvalue="Jest.get alle kategorier fra db (1)" />
+      <item itemvalue="Jest.get alle kategorier fra db (2)" />
+      <item itemvalue="Jest.get alle kategorier fra db (3)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.get alle kategorier fra db (3)" />
+        <item itemvalue="Jest.get alle kategorier fra db (2)" />
+        <item itemvalue="Jest.get alle kategorier fra db (1)" />
+        <item itemvalue="Jest.get alle kategorier fra db" />
+        <item itemvalue="Node.js.sakdao.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f328ae0b-b0fa-4c5d-8359-03cd2746adf2" name="Default Changelist" comment="" />
+      <created>1540906863984</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540906863984</updated>
+      <workItem from="1540906867468" duration="726000" />
+      <workItem from="1541520933896" duration="17403000" />
+      <workItem from="1542034520582" duration="55319000" />
+      <workItem from="1542284060126" duration="4582000" />
+      <workItem from="1542291165282" duration="110142000" />
+      <workItem from="1542737873738" duration="4554000" />
+      <workItem from="1542742684395" duration="6673000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="get_alle_kategorier_fra_db_(1) - 2018.11.19 at 12h 29m 17s.xml">
+      <configuration name="get alle kategorier fra db (1)" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="get_alle_kategorier_fra_db_(2) - 2018.11.19 at 12h 38m 53s.xml">
+      <configuration name="get alle kategorier fra db (2)" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="get_alle_kategorier_fra_db_(2) - 2018.11.19 at 12h 39m 29s.xml">
+      <configuration name="get alle kategorier fra db (2)" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="get_alle_kategorier_fra_db_(2) - 2018.11.19 at 12h 43m 56s.xml">
+      <configuration name="get alle kategorier fra db (2)" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="get_alle_kategorier_fra_db_(2) - 2018.11.19 at 12h 46m 07s.xml">
+      <configuration name="get alle kategorier fra db (2)" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="get_alle_kategorier_fra_db_(2) - 2018.11.19 at 12h 49m 17s.xml">
+      <configuration name="get alle kategorier fra db (2)" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="get_alle_kategorier_fra_db_(2) - 2018.11.19 at 12h 58m 13s.xml">
+      <configuration name="get alle kategorier fra db (2)" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="get_alle_kategorier_fra_db_(3) - 2018.11.19 at 13h 10m 33s.xml">
+      <configuration name="get alle kategorier fra db (3)" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="get_alle_kategorier_fra_db_(3) - 2018.11.19 at 14h 16m 32s.xml">
+      <configuration name="get alle kategorier fra db (3)" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="get_alle_kategorier_fra_db_(3) - 2018.11.20 at 09h 19m 13s.xml">
+      <configuration name="get alle kategorier fra db (3)" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="199399000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19713831" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24156305" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.14209591" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Flow" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/client/public/RegSide.css" />
+    <entry file="file://$PROJECT_DIR$/client/public/bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189679">
+          <caret line="1882" column="28" selection-start-line="1882" selection-start-column="28" selection-end-line="1882" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/public/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/models.js" />
+    <entry file="file://$PROJECT_DIR$/server/tests/modelsTest.js" />
+    <entry file="file://$PROJECT_DIR$/server/src/dao/create_tables_sak.sql" />
+    <entry file="file://$PROJECT_DIR$/server/src/dao/create_testdata_sak.sql" />
+    <entry file="file://$PROJECT_DIR$/server/src/dao/sakDao.Test.js" />
+    <entry file="file://$PROJECT_DIR$/client/public/Hovedside.css" />
+    <entry file="file://$PROJECT_DIR$/client/tests/widgetsTest.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/public/custom.css" />
+    <entry file="file://$PROJECT_DIR$/server/.babelrc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/package-lock.json" />
+    <entry file="file://$PROJECT_DIR$/server/.prettierrc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/.npmrc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="6404" lean-forward="true" selection-start-line="6404" selection-end-line="6404" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitlab-ci.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-299" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/package-lock.json" />
+    <entry file="file://$PROJECT_DIR$/client/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/tests/setup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/dao/create_tables.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/dao/runsqlfile.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="5565" selection-start-line="5565" selection-end-line="5565" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/dao/create_testdata.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="44" column="30" lean-forward="true" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
+          <folding>
+            <element signature="n#Sak#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/widgets.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="83" column="12" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="12" />
+          <folding>
+            <element signature="n#Alert#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/dao/dao.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/dao/katdao.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/dao/sakkatdao.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="147" selection-start-line="147" selection-end-line="147" />
+          <folding>
+            <element signature="e#1531#1781#0" />
+            <element signature="e#1831#2088#0" />
+            <element signature="e#2126#2404#0" />
+            <element signature="e#2462#2721#0" />
+            <element signature="e#2756#3172#0" />
+            <element signature="e#3210#3688#0" />
+            <element signature="e#3726#3987#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/dao/sakdao.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="119" selection-start-line="22" selection-start-column="119" selection-end-line="22" selection-end-column="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="62" column="3" selection-start-line="62" selection-start-column="3" selection-end-line="62" selection-end-column="3" />
+          <folding>
+            <element signature="e#10#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1299">
+          <caret line="338" column="12" lean-forward="true" selection-start-line="338" selection-start-column="12" selection-end-line="338" selection-end-column="12" />
+          <folding>
+            <element signature="e#453#597#0" />
+            <element signature="n#Menu#0" />
+            <element signature="n#Home#0" />
+            <element signature="n#Nyeste#0" />
+            <element signature="n#Kategori#0" />
+            <element signature="n#RegSide#0" />
+            <element signature="n#LeggTilKat#0" />
+            <element signature="n#Sak#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
